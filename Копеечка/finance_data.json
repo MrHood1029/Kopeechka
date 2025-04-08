@@ -1,0 +1,46 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "date": "2025-04-07",
+            "type": "expense",
+            "category": "Еда",
+            "amount": 10000.0,
+            "description": "Закупка"
+        },
+        {
+            "id": 2,
+            "date": "2025-04-07",
+            "type": "income",
+            "category": "Зарплата",
+            "amount": 100000.0,
+            "description": "Зп"
+        },
+        {
+            "id": 3,
+            "date": "2025-04-15",
+            "type": "expense",
+            "category": "Жилье",
+            "amount": 27000.0,
+            "description": "Аренда"
+        }
+    ],
+    "categories": {
+        "income": [
+            "Зарплата",
+            "Фриланс",
+            "Инвестиции",
+            "Подарки"
+        ],
+        "expense": [
+            "Еда",
+            "Транспорт",
+            "Жилье",
+            "Развлечения",
+            "Одежда"
+        ]
+    },
+    "settings": {
+        "theme": "light"
+    }
+}
